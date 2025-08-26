@@ -11,7 +11,7 @@
     app.use(bodyParser.json())
     app.use("/public",express.static("public"))
     app.use(cors({
-        origin:"http://localhost:5173",
+        origin:"https://hospital-management-react-rouge.vercel.app",
         credentials:true
     }))
 
